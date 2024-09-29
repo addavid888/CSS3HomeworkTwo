@@ -57,7 +57,23 @@ h1 {
     background-color: rgb(206, 206, 206);
 }
 
-#gallery {
-    display: grid;
+.gallery {
+    display: grid;    
+}
+
+.two-per-row {
     grid-template-columns: 50% 50%;
+    justify-items: center;
+}
+
+.five-per-row {
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    justify-items: center;
+}
+
+img {
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    align-self: center;
 }
